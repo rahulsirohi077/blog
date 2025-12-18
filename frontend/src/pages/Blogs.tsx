@@ -1,8 +1,7 @@
-import React from 'react'
-import { BlogCard } from '../components/BlogCard'
-import { Appbar } from '../components/Appbar'
-import { useBlogs } from '../hooks';
+import { Appbar } from '../components/Appbar';
+import { BlogCard } from '../components/BlogCard';
 import { BlogSkeleton } from '../components/BlogSkeleton';
+import { useBlogs } from '../hooks';
 
 export const Blogs = () => {
     const { blogs, loading} = useBlogs();
